@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "homepage": "https://Bhush8766.github.io/CarPoint",
     "git": "^0.1.5"
   },
   "devDependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "gh-pages": "^6.3.0"
   }
 }
